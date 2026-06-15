@@ -1,0 +1,62 @@
+/* ═══════════════════════════════════════════════════
+   OptiCloud Design Tokens — variables.css
+   ═══════════════════════════════════════════════════ */
+
+:root {
+  /* ── Brand gradient ─────────────────────────────── */
+  --grad:          linear-gradient(135deg, #1E90FF 0%, #5A4FCF 55%, #00D4FF 100%);
+  --grad-soft:     linear-gradient(135deg, rgba(30,144,255,.10) 0%, rgba(90,79,207,.07) 100%);
+  --grad-text:     linear-gradient(135deg, #1E90FF, #5A4FCF);
+
+  /* ── Accent colours ─────────────────────────────── */
+  --primary:       #1E90FF;
+  --secondary:     #5A4FCF;
+  --accent:        #00D4FF;
+  --success:       #06D6A0;
+  --warning:       #FFB703;
+  --danger:        #E63946;
+
+  /* ── Animation ──────────────────────────────────── */
+  --ease:          cubic-bezier(.4, 0, .2, 1);
+  --duration:      0.28s;
+}
+
+/* ── Light mode (default) ───────────────────────────── */
+.light {
+  --bg:            #F4F9FF;
+  --bg2:           #EAF3FF;
+  --bg3:           #DDEEFF;
+  --surface:       rgba(255, 255, 255, 0.75);
+  --surface2:      rgba(255, 255, 255, 0.55);
+  --border:        rgba(30, 144, 255, 0.14);
+  --border2:       rgba(30, 144, 255, 0.22);
+  --text:          #0B3C5D;
+  --text2:         #3A6080;
+  --text3:         #7A9AB8;
+  --shadow:        0 4px 28px rgba(30, 144, 255, 0.10);
+  --shadow-lg:     0 16px 56px rgba(30, 144, 255, 0.18);
+  --glass-bg:      rgba(255, 255, 255, 0.72);
+  --glass-border:  rgba(255, 255, 255, 0.90);
+  --blur:          blur(20px);
+  --invert-icon:   0;
+}
+
+/* ── Dark mode ──────────────────────────────────────── */
+.dark {
+  --bg:            #0A192F;
+  --bg2:           #0D2340;
+  --bg3:           #112A4A;
+  --surface:       rgba(13, 35, 64, 0.82);
+  --surface2:      rgba(20, 44, 78, 0.68);
+  --border:        rgba(0, 212, 255, 0.13);
+  --border2:       rgba(0, 212, 255, 0.22);
+  --text:          #E2F0FF;
+  --text2:         #7DAAC8;
+  --text3:         #3D6080;
+  --shadow:        0 4px 28px rgba(0, 0, 0, 0.45);
+  --shadow-lg:     0 16px 56px rgba(0, 0, 0, 0.65);
+  --glass-bg:      rgba(10, 28, 52, 0.80);
+  --glass-border:  rgba(255, 255, 255, 0.07);
+  --blur:          blur(24px);
+  --invert-icon:   1;
+}
